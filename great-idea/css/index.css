@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	margin: 50px;
+ align-content: center;	
+}
+
+
+
+.navRow{
+	display: flex;
+	flex-flow: row ;
+	justify-content: flex-start;
+	justify-content:space-evenly;
+	align-items: baseline;
+}
+.services-header-img{
+	display: flex;
+	width: auto;
+	padding: 20px;
+}
+
+section{
+padding-bottom: 30px;
+}
+.main-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-around;
+}
+
+.button{
+	padding: 10px;
+}
+
+.box-one{
+	border: solid 2px;
+	background: lightgray;
+	width: 400px;
+	height: 600x;
+	padding: 20px;
+
+}
+.box-two{
+	border: solid 2px;
+	background: lightgray;
+	width: 400px;
+	height: 600x;
+	padding: 20px;
+}
+
+.box-three{
+	border: solid 2px;
+	background: lightgray;
+	width: 400px;
+	height: 600x;
+	padding: 20px;
+}
+
+.box-four{
+	border: solid 2px;
+	background: lightgray;
+	width: 400px;
+	height: 600x;
+	padding: 20px;
+}
+
+.box-five{
+	border: solid 2px;
+	background: lightgray;
+	width: 400px;
+	height: 600x;
+	padding: 20px;
+}
+
+.box-six{
+	border: solid 2px;
+	background: lightgray;
+	width: 400px;
+	height: 600x;
+	padding: 20px;
+}
+
+.last-box{
+	border: 2px;
+	width: 50%;
+	height: auto;
+	padding: 10px;
+}
+
+.bottom-content{
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	
+}
+
+footer{
+	margin-left: 50%;
+}
+
+.services-info-img{
+	margin-left: 130%;
+	padding-bottom: 60%
+
+}
+
+.move{
+	width: 50%;
+	padding-top:50%;
+	padding-right: 55%;
+	margin-left:10% ;
+}
